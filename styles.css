@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: '. . .' '. . .' '. . .';
+}
+
+.grid-container {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.toast {
+  margin-left: 1000px;
+}
+
+body {
+  background: #e0eafc;
+  background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
+  background: linear-gradient(to right, #cfdef3, #e0eafc);
+}
+
+.card {
+  border-radius: 2.5%;
+  margin: 0.4rem;
+}
+
+.toast,
+#cart {
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+}

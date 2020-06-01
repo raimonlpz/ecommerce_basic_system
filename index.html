@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Botiga online dels millors productes del mercat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="header-content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand" href="#">My Shop</a>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+            </ul>
+            <div id="cart" class="alert alert-dismissible alert-success"></div>
+          </div>
+        </nav>
+      </div>
+      <div class="grid-container" id="grid"></div>
+      <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <strong class="mr-auto">Cart Items</strong>
+        </div>
+        <div class="toast-body" id="items-list-toast"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
